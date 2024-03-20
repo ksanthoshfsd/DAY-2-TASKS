@@ -1,0 +1,33 @@
+difference between document and windows object
+
+Document Object:
+
+1. Purpose: Represents the HTML document itself.
+
+2. Functionality: - Provides methods and properties to access and manipulate the content of the document.
+Facilitates selecting elements, modifying their attributes, or adding new elements dynamically.
+
+3. Examples: 
+`document.getElementById()`: Retrieves an element by its ID.
+`document.createElement()`: Creates a new HTML element.
+
+4. Focus: Primarily concerned with the structured content of the web page.
+
+
+Window Object:
+
+1. Purpose: Represents the browser window that contains the DOM document.
+
+2. Functionality:
+- Provides methods and properties related to the browser window.
+- Controls navigation, manages browser history, and handles events like resizing or scrolling.
+- Interacts with other browser features like the location bar or cookies.
+
+3. Examples:
+- `window.alert()`: Displays an alert dialog.
+- `window.location.href`: Gets or sets the URL of the current page.
+
+4. Focus: Primarily concerned with the browser window and its interaction with the user.
+
+In essence, while both objects are integral to web development and are part of the DOM, the `document` object focuses on the content and structure of the web page, 
+while the `window` object deals with the browser window and its broader functionalities.
