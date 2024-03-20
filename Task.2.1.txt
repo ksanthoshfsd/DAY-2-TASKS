@@ -4,12 +4,13 @@ Document Object:
 
 1. Purpose: Represents the HTML document itself.
 
-2. Functionality: - Provides methods and properties to access and manipulate the content of the document.
-Facilitates selecting elements, modifying their attributes, or adding new elements dynamically.
+2. Functionality: 
+- Provides methods and properties to access and manipulate the content of the document.
+- Facilitates selecting elements, modifying their attributes, or adding new elements dynamically.
 
 3. Examples: 
-`document.getElementById()`: Retrieves an element by its ID.
-`document.createElement()`: Creates a new HTML element.
+- `document.getElementById()`: Retrieves an element by its ID.
+- `document.createElement()`: Creates a new HTML element.
 
 4. Focus: Primarily concerned with the structured content of the web page.
 
